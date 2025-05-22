@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leomsfreitas/movie-catalog-crud-axios.git"
+    "url": "git+https://github.com/leomsfreitas/movie-catalog-react.git"
   },
   "keywords": [
     "react",
@@ -30,9 +30,9 @@
   "author": "Leo Freitas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leomsfreitas/movie-catalog-crud-axios/issues"
+    "url": "https://github.com/leomsfreitas/movie-catalog-react/issues"
   },
-  "homepage": "https://github.com/leomsfreitas/movie-catalog-crud-axios#readme",
+  "homepage": "https://github.com/leomsfreitas/movie-catalog-react#readme",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
     "vite": "^6.3.5",
