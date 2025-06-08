@@ -2,7 +2,7 @@
 
 Este repositório contém o projeto desenvolvido para o componente curricular **"Programação Web 2"**, com o objetivo de praticar operações CRUD (Create, Read, Update, Delete) utilizando a biblioteca Axios para comunicação com a API pública [MockAPI](https://mockapi.io/).
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 A aplicação é uma SPA (Single Page Application) construída com React, consumindo a API pública [MockAPI](https://mockapi.io/) para realizar as seguintes operações:
 
@@ -13,7 +13,7 @@ A aplicação é uma SPA (Single Page Application) construída com React, consum
 
 Essas operações são realizadas por meio de chamadas HTTP com Axios, e o estado da aplicação é gerenciado de forma eficiente utilizando os hooks do React (`useState`, `useEffect`).
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **React** (com Vite.js)
 - **Axios** para requisições HTTP
@@ -22,7 +22,7 @@ Essas operações são realizadas por meio de chamadas HTTP com Axios, e o estad
 - **JavaScript** (ES6+)
 - **HTML5** e **CSS3**
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Interface moderna para listagem e gerenciamento de filmes.
 - Formulário para criação e edição de filmes com validação.
@@ -31,7 +31,7 @@ Essas operações são realizadas por meio de chamadas HTTP com Axios, e o estad
 - Manipulação do estado via React Hooks.
 - Feedback visual para ações como criação, edição e exclusão.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 movie-catalog-crud-axios/
@@ -54,11 +54,11 @@ movie-catalog-crud-axios/
 └── README.md            # Documentação do projeto
 ```
 
-## 📌 Observações
+## Observações
 
 - A API utilizada ([MockAPI](https://mockapi.io/)) persiste os dados, permitindo que as operações de criação, atualização e exclusão sejam refletidas na API.
 - Este projeto tem fins educacionais e é utilizado como base para o aprendizado de requisições HTTP e manipulação de DOM com React.
 
-## 📚 Créditos
+## Créditos
 
 Projeto desenvolvido como parte da disciplina **PRW2**, sob orientação do professor responsável.
