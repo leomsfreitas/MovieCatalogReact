@@ -1,64 +1,64 @@
-# Catálogo de Filmes com React e Axios
+# Movie Catalog with React and Axios
 
-Este repositório contém o projeto desenvolvido para o componente curricular **"Programação Web 2"**, com o objetivo de praticar operações CRUD (Create, Read, Update, Delete) utilizando a biblioteca Axios para comunicação com a API pública [MockAPI](https://mockapi.io/).
+A project developed for the **Web Programming 2** course, practicing full CRUD operations using the Axios library to communicate with the public [MockAPI](https://mockapi.io/) service.
 
-## Descrição do Projeto
+## Project Description
 
-A aplicação é uma SPA (Single Page Application) construída com React, consumindo a API pública [MockAPI](https://mockapi.io/) para realizar as seguintes operações:
+A Single Page Application (SPA) built with React that consumes the [MockAPI](https://mockapi.io/) public API to perform the following operations:
 
-- **Create**: Criação de um novo filme.
-- **Read**: Leitura de todos os filmes existentes.
-- **Update**: Atualização de filmes existentes.
-- **Delete**: Remoção de filmes.
+- **Create**: Add a new movie.
+- **Read**: List all existing movies.
+- **Update**: Edit an existing movie.
+- **Delete**: Remove a movie.
 
-Essas operações são realizadas por meio de chamadas HTTP com Axios, e o estado da aplicação é gerenciado de forma eficiente utilizando os hooks do React (`useState`, `useEffect`).
+HTTP requests are made with Axios, and application state is managed efficiently using React hooks (`useState`, `useEffect`).
 
-## Tecnologias Utilizadas
+## Technologies
 
-- **React** (com Vite.js)
-- **Axios** para requisições HTTP
-- **React Router DOM** para navegação entre páginas
-- **Bootstrap** para estilização e responsividade
+- **React** (with Vite)
+- **Axios** for HTTP requests
+- **React Router DOM** for client-side navigation
+- **Bootstrap** for styling and responsiveness
 - **JavaScript** (ES6+)
-- **HTML5** e **CSS3**
+- **HTML5** and **CSS3**
 
-## Funcionalidades
+## Features
 
-- Interface moderna para listagem e gerenciamento de filmes.
-- Formulário para criação e edição de filmes com validação.
-- Exclusão de filmes com confirmação.
-- Consumo de API pública com Axios.
-- Manipulação do estado via React Hooks.
-- Feedback visual para ações como criação, edição e exclusão.
+- Clean interface for listing and managing movies.
+- Form with validation for creating and editing movies.
+- Movie deletion with confirmation step.
+- Public API consumption via Axios.
+- State management with React Hooks.
+- Visual feedback for create, edit, and delete actions.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 movie-catalog-crud-axios/
 ├── public/
 ├── src/
-│   ├── components/      # Componentes reutilizáveis
-│   │   ├── Create.jsx   # Página para criar filmes
-│   │   ├── Delete.jsx   # Página para deletar filmes
-│   │   ├── Header.jsx   # Cabeçalho da aplicação
-│   │   ├── Home.jsx     # Página inicial com listagem de filmes
-│   │   ├── NotFound.jsx # Página 404
-│   │   ├── Read.jsx     # Página para visualizar detalhes de um filme
-│   │   └── Update.jsx   # Página para editar filmes
-│   ├── App.jsx          # Configuração das rotas
-│   ├── main.jsx         # Ponto de entrada da aplicação
-│   ├── App.css          # Estilos globais
-│   └── index.css        # Estilos adicionais
-├── package.json         # Dependências e scripts do projeto
-├── vite.config.js       # Configuração do Vite
-└── README.md            # Documentação do projeto
+│   ├── components/
+│   │   ├── Create.jsx   # Create movie page
+│   │   ├── Delete.jsx   # Delete movie page
+│   │   ├── Header.jsx   # App header
+│   │   ├── Home.jsx     # Movie listing page
+│   │   ├── NotFound.jsx # 404 page
+│   │   ├── Read.jsx     # Movie detail page
+│   │   └── Update.jsx   # Edit movie page
+│   ├── App.jsx          # Route configuration
+│   ├── main.jsx         # App entry point
+│   ├── App.css
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
-## Observações
+## Notes
 
-- A API utilizada ([MockAPI](https://mockapi.io/)) persiste os dados, permitindo que as operações de criação, atualização e exclusão sejam refletidas na API.
-- Este projeto tem fins educacionais e é utilizado como base para o aprendizado de requisições HTTP e manipulação de DOM com React.
+- [MockAPI](https://mockapi.io/) persists data, so create, update, and delete operations are reflected in the API.
+- This project is educational and serves as a foundation for learning HTTP requests and React DOM manipulation.
 
-## Créditos
+## Credits
 
-Projeto desenvolvido como parte da disciplina **PRW2**, sob orientação do professor responsável.
+Project developed as part of the **PRW2** course, under the guidance of the course instructor.
